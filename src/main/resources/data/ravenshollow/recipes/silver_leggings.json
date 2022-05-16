@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "X X",
+    "X X"
+  ],
+  "key": {
+    "X": {
+      "item": "ravenshollow:silver_ingot"
+    }
+  },
+  "result": {
+    "item": "ravenshollow:silver_leggings"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "ravenshollow:blood_ingot"
+    }
+  ],
+  "result": {
+    "item": "ravenshollow:blood_nugget",
+    "count": 9
+  }
+}

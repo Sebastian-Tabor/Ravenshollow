@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "X X",
+    "X X"
+  ],
+  "key": {
+    "X": {
+      "item": "ravenshollow:hollow_ingot"
+    }
+  },
+  "result": {
+    "item": "ravenshollow:hollow_boots"
+  }
+}

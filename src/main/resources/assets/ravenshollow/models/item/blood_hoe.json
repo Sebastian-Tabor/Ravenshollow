@@ -1,0 +1,6 @@
+{
+  "parent": "items/handheld",
+  "textures": {
+    "layer0": "ravenshollow:item/blood_hoe"
+  }
+}

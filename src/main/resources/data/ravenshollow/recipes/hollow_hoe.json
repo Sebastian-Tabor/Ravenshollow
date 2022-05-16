@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XX",
+    " #",
+    " #"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "ravenshollow:hollow_ingot"
+    }
+  },
+  "result": {
+    "item": "ravenshollow:hollow_hoe"
+  }
+}

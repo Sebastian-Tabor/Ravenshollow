@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "ravenshollow:silver_block",
+    "ravenshollow:bronze_block",
+    "ravenshollow:blood_block",
+    "ravenshollow:hollow_block",
+    "ravenshollow:silver_ore"
+  ]
+}
