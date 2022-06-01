@@ -12,6 +12,7 @@ public class HollowHoe extends HoeItem {
     @Override
     public boolean hurtEnemy(ItemStack pStack, LivingEntity pTarget, LivingEntity pAttacker) {
         pTarget.addEffect(new MobEffectInstance(MobEffects.WITHER, 400), pAttacker);
+        pTarget.addEffect(new MobEffectInstance(MobEffects.WEAKNESS, 400), pAttacker);
         return super.hurtEnemy(pStack, pTarget, pAttacker);
     }
 }

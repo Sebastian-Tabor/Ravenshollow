@@ -12,6 +12,7 @@ public class HollowShovel extends ShovelItem {
     @Override
     public boolean hurtEnemy(ItemStack pStack, LivingEntity pTarget, LivingEntity pAttacker) {
         pTarget.addEffect(new MobEffectInstance(MobEffects.WITHER, 400), pAttacker);
+        pTarget.addEffect(new MobEffectInstance(MobEffects.WEAKNESS, 400), pAttacker);
         return super.hurtEnemy(pStack, pTarget, pAttacker);
     }
 }

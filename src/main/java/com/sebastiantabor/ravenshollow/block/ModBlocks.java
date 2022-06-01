@@ -22,9 +22,9 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, RavensHollow.MOD_ID);
 
-    public static final RegistryObject<Block> SILVER_ORE = (RegistryObject<Block>) registerBlock("silver_ore",
-            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
-            .strength(1.0f).requiresCorrectToolForDrops()), ModCreativeModeTab.RAVENS_HOLLOW_TAB);
+    public static final RegistryObject<Block> SILVER_ORE = registerBlock("silver_ore",
+            () -> new OreBlock(BlockBehaviour.Properties.of(Material.METAL)
+            .strength(1.0f).requiresCorrectToolForDrops(), UniformInt.of(0,2)), ModCreativeModeTab.RAVENS_HOLLOW_TAB);
     public static final RegistryObject<Block> SILVER_BLOCK = registerBlock("silver_block", () ->
             new Block(BlockBehaviour.Properties.of(Material.HEAVY_METAL, MaterialColor.TERRACOTTA_WHITE).strength(1).requiresCorrectToolForDrops().sound(SoundType.METAL)),ModCreativeModeTab.RAVENS_HOLLOW_TAB);
     public static final RegistryObject<Block> RAW_SILVER_BLOCK = registerBlock("raw_silver_block", () ->
@@ -35,19 +35,19 @@ public class ModBlocks {
             new Block(BlockBehaviour.Properties.of(Material.HEAVY_METAL).strength(2.0F).requiresCorrectToolForDrops().sound(SoundType.METAL)),ModCreativeModeTab.RAVENS_HOLLOW_TAB);
     public static final RegistryObject<Block> RED_DIAMOND_BLOCK = registerBlock("red_diamond_block", () ->
             new Block(BlockBehaviour.Properties.of(Material.HEAVY_METAL).strength(2.5F).requiresCorrectToolForDrops().sound(SoundType.METAL)),ModCreativeModeTab.RAVENS_HOLLOW_TAB);
-    public static final RegistryObject<Block> RED_ORE = (RegistryObject<Block>) registerBlock("red_ore",
-            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(2.0f).requiresCorrectToolForDrops()), ModCreativeModeTab.RAVENS_HOLLOW_TAB);
+    public static final RegistryObject<Block> RED_ORE = registerBlock("red_ore",
+            () -> new OreBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2.0f).requiresCorrectToolForDrops(),UniformInt.of(3,7)), ModCreativeModeTab.RAVENS_HOLLOW_TAB);
     //Possible new sounds? RED, HOLLOW, etc
     public static final RegistryObject<Block> RAW_HOLLOW_BLOCK = registerBlock("raw_hollow_block", () ->
             new Block(BlockBehaviour.Properties.of(Material.STONE).strength(3F).requiresCorrectToolForDrops().sound(SoundType.METAL)),ModCreativeModeTab.RAVENS_HOLLOW_TAB);
     public static final RegistryObject<Block> HOLLOW_BLOCK = registerBlock("hollow_block", () ->
             new Block(BlockBehaviour.Properties.of(Material.HEAVY_METAL).strength(3.0F).requiresCorrectToolForDrops().sound(SoundType.METAL)),ModCreativeModeTab.RAVENS_HOLLOW_TAB);
-    public static final RegistryObject<Block> RAVEN_ALTAR = registerBlock("raven_altar", () ->
-            new Block(BlockBehaviour.Properties.of(Material.STONE).strength(1.0F).requiresCorrectToolForDrops().sound(SoundType.STONE)),ModCreativeModeTab.RAVENS_HOLLOW_TAB);
-    public static final RegistryObject<Block> HOLLOW_ORE = (RegistryObject<Block>) registerBlock("hollow_ore",
-            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(3.0f).requiresCorrectToolForDrops()), ModCreativeModeTab.RAVENS_HOLLOW_TAB);
+    //public static final RegistryObject<Block> RAVEN_ALTAR = registerBlock("raven_altar", () ->
+           // new Block(BlockBehaviour.Properties.of(Material.STONE).strength(1.0F).requiresCorrectToolForDrops().sound(SoundType.STONE)),ModCreativeModeTab.RAVENS_HOLLOW_TAB);
+    public static final RegistryObject<Block> HOLLOW_ORE = registerBlock("hollow_ore",
+            () -> new OreBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(3.0f).requiresCorrectToolForDrops(), UniformInt.of(3,7)), ModCreativeModeTab.RAVENS_HOLLOW_TAB);
 
     private static <T extends Block> RegistryObject<T> registerBlockWithoutBlockItem(String name, Supplier<T> block) {
         return BLOCKS.register(name, block);
