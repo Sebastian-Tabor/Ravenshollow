@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "ravenshollow:block/raw_hollow_block"
+  }
+}

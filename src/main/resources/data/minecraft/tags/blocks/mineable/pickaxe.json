@@ -3,8 +3,12 @@
   "values": [
     "ravenshollow:silver_block",
     "ravenshollow:bronze_block",
-    "ravenshollow:blood_block",
+    "ravenshollow:red_diamond_block",
     "ravenshollow:hollow_block",
-    "ravenshollow:silver_ore"
+    "ravenshollow:silver_ore",
+    "ravenshollow:raw_silver_block",
+    "ravenshollow:red_ore",
+    "ravenshollow:hollow_ore",
+    "ravenshollow:raw_hollow_block"
   ]
 }

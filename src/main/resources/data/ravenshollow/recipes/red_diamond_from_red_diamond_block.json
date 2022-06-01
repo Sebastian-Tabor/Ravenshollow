@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "silver_ingot",
+  "ingredients": [
+    {
+      "item": "ravenshollow:red_diamond_block"
+    }
+  ],
+  "result": {
+    "item": "ravenshollow:red_diamond",
+    "count": 9
+  }
+}

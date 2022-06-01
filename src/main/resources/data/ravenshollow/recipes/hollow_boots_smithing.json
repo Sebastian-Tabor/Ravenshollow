@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:netherite_boots"
+  },
+  "addition": {
+    "item": "ravenshollow:hollow_ingot"
+  },
+  "result": {
+    "item": "ravenshollow:hollow_boots"
+  }
+}

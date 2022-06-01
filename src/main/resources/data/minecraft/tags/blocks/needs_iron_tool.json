@@ -1,7 +1,9 @@
 {
   "replace": false,
   "values": [
-    "ravenshollow:blood_block",
-    "ravenshollow:bronze_block"
+    "ravenshollow:red_diamond_block",
+    "ravenshollow:red_ore",
+    "ravenshollow:bronze_block",
+    "ravenshollow:raw_bronze_block"
   ]
 }

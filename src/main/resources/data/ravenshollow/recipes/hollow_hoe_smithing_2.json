@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:netherite_hoe"
+  },
+  "addition": {
+    "item": "ravenshollow:raw_hollow"
+  },
+  "result": {
+    "item": "ravenshollow:hollow_hoe"
+  }
+}

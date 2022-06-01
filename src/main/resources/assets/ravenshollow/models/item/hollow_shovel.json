@@ -1,5 +1,5 @@
 {
-  "parent": "items/handheld",
+  "parent": "minecraft:item/handheld",
   "textures": {
     "layer0": "ravenshollow:item/hollow_shovel"
   }

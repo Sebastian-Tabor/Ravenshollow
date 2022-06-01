@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "hollow_ingot",
+  "ingredients": [
+    {
+      "item": "ravenshollow:raw_hollow_block"
+    }
+  ],
+  "result": {
+    "item": "ravenshollow:raw_hollow",
+    "count": 9
+  }
+}

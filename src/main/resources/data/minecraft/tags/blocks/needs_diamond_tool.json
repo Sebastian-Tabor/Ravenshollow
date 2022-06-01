@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
-    "ravenshollow:hollow_block"
+    "ravenshollow:hollow_block",
+    "ravenshollow:hollow_ore",
+    "ravenshollow:raw_hollow_block"
   ]
 }
