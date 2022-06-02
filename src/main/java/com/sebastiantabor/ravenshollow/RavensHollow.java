@@ -30,9 +30,7 @@ public class RavensHollow {
         ModItems.register(eventBus);
         ModBlocks.register(eventBus);
 
-
         eventBus.addListener(this::setup);
-
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
     }
